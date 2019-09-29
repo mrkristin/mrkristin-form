@@ -1,0 +1,23 @@
+.mrk-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mrk-flex-left {
+    flex: 1;
+    align-items: flex-start;
+}
+
+.mrk-flex-right {
+    flex: 1;
+}
+.mrk-flex-left div, .mrk-flex-right div {
+    height: 50px;
+    padding: 0.5em;
+    border: paleturquoise 1px dashed;
+    margin-bottom: 1em;
+}
+
+.mrk-flex-left div.txtarea, .mrk-flex-right div.txtarea {
+    height: 150px;
+}
