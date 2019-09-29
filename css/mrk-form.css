@@ -203,17 +203,27 @@
  * Simple Mobile Styles using Media queries
  *********************************************************************************************************************/
 @media only screen and (max-width: 600px) {
-    textarea, button, input[type=button], input[type=submit], input[type=reset] {
+    .mrk-form textarea,
+    .mrk-form button,
+    .mrk-form input[type=button],
+    .mrk-form input[type=submit],
+    .mrk-form input[type=reset] {
         width: 100%;
         margin: 3px 0;
     }
-    input[type=text], input[type=email], input[type=search], input[type=password],
-    input[type=url], input[type=number], input[type=range], textarea {
+    .mrk-form input[type=text],
+    .mrk-form input[type=email],
+    .mrk-form input[type=search],
+    .mrk-form input[type=password],
+    .mrk-form input[type=url],
+    .mrk-form input[type=number],
+    .mrk-form input[type=range],
+    .mrk-form textarea {
         width: 98%;
         padding: 11px 1%;
         margin: 0;
     }
-    select {
+    .mrk-form select {
         width: 100%;
         max-width: 100%;
     }

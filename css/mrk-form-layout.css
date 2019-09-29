@@ -21,3 +21,12 @@
 .mrk-flex-left div.txtarea, .mrk-flex-right div.txtarea {
     height: 150px;
 }
+
+@media only screen and (max-width: 600px) {
+    .mrk-flex {
+        flex-direction: column;
+    }
+    .mrk-flex-left div, .mrk-flex-right div {
+        height: 100px;
+    }
+}
