@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>MrKristin's Simple CSS Form Styles</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/mrk-form-layout.css">
     <link rel="stylesheet" type="text/css" href="css/mrk-form.css">
 </head>
 <body>
 <h1>MrKristin's Simple CSS Form Styles</h1>
-
-<h2>Cross Browser Compatible vs Raw Styles</h2>
+<p>
+    was hoping to come up with something that was cross browser for basic form elements but ran into issues
+    with IE/EDGE radio and checkbox buttons. this is still better than nothing for my purposes.
+</p>
 <div class="mrk-flex">
     <div class="mrk-flex-left mrk-form">
         <form>
             <fieldset>
-                <legend>styled</legend>
+                <legend>styled element legend</legend>
+                <div><h2>Styled Elements</h2></div>
                 <div>
                     <label>
                         text
@@ -31,24 +35,6 @@
                             <option>beta</option>
                             <option>gamma delta epsilon</option>
                         </select>
-                    </label>
-                </div>
-
-                <div>
-                    <label>
-                        checkbox 1
-                        <input type="checkbox"/>
-                    </label>
-                </div>
-
-                <div>
-                    <label>
-                        radio 1
-                        <input type="radio" name="testradio"/>
-                    </label>
-                    <label>
-                        <input type="radio" name="testradio"/>
-                        radio 2
                     </label>
                 </div>
 
@@ -96,13 +82,6 @@
                 </div>
 
                 <div>
-                    <label>
-                        range
-                        <input type="range" min="1" max="100"/>
-                    </label>
-                </div>
-
-                <div>
                     <button>button</button>
                 </div>
 
@@ -116,6 +95,97 @@
 
                 <div>
                     <input type="submit"/>
+                </div>
+
+                <div><h3>IE/EDGE Inconsistencies</h3></div>
+
+                <div>
+                    <label>
+                        checkbox 1
+                        <input type="checkbox"/>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        radio 1
+                        <input type="radio" name="testradio"/>
+                    </label>
+                    <label>
+                        <input type="radio" name="testradio"/>
+                        radio 2
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        range
+                        <input type="range" min="1" max="100"/>
+                    </label>
+                </div>
+
+                <div><h3>Minimally Styled Elements</h3></div>
+                <div>
+                    <label>
+                        file
+                        <input type="file"/>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        image
+                        <input type="image"/>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        color
+                        <input type="color"/>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        week
+                        <input type="week"/>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        tel
+                        <input type="tel"/>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        time
+                        <input type="time"/>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        month
+                        <input type="month"/>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        date
+                        <input type="date"/>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        datetime-local
+                        <input type="datetime-local"/>
+                    </label>
                 </div>
             </fieldset>
         </form>
@@ -123,7 +193,8 @@
     <div class="mrk-flex-right">
         <form>
             <fieldset>
-                <legend>raw unstyled or nonstyled?</legend>
+                <legend>unstyled (or nonstyled) element legend</legend>
+                <div><h2>Unstyled (or Nonstyled) elements</h2></div>
                 <div>
                     <label>
                         text
@@ -140,24 +211,6 @@
                             <option>beta</option>
                             <option>gamma delta epsilon</option>
                         </select>
-                    </label>
-                </div>
-
-                <div>
-                    <label>
-                        checkbox 1
-                        <input type="checkbox"/>
-                    </label>
-                </div>
-
-                <div>
-                    <label>
-                        radio 1
-                        <input type="radio" name="testradio"/>
-                    </label>
-                    <label>
-                        <input type="radio" name="testradio"/>
-                        radio 2
                     </label>
                 </div>
 
@@ -205,13 +258,6 @@
                 </div>
 
                 <div>
-                    <label>
-                        range
-                        <input type="range" min="1" max="100"/>
-                    </label>
-                </div>
-
-                <div>
                     <button>button</button>
                 </div>
 
@@ -226,11 +272,102 @@
                 <div>
                     <input type="submit"/>
                 </div>
+
+                <div><h3>&nbsp;</h3></div>
+
+                <div>
+                    <label>
+                        checkbox 1
+                        <input type="checkbox"/>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        radio 1
+                        <input type="radio" name="testradio"/>
+                    </label>
+                    <label>
+                        <input type="radio" name="testradio"/>
+                        radio 2
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        range
+                        <input type="range" min="1" max="100"/>
+                    </label>
+                </div>
+
+                <div><h3>&nbsp;</h3></div>
+                <div>
+                    <label>
+                        file
+                        <input type="file"/>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        image
+                        <input type="image"/>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        color
+                        <input type="color"/>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        week
+                        <input type="week"/>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        tel
+                        <input type="tel"/>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        time
+                        <input type="time"/>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        month
+                        <input type="month"/>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        date
+                        <input type="date"/>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        datetime-local
+                        <input type="datetime-local"/>
+                    </label>
+                </div>
             </fieldset>
         </form>
     </div>
 </div>
-
+<!--
 <h2>Elements not available on all browsers which are minimally styled</h2>
 <div class="mrk-flex">
     <div class="mrk-flex-left mrk-form">
@@ -372,6 +509,6 @@
         </form>
     </div>
 </div>
-
+-->
 </body>
 </html>

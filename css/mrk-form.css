@@ -103,6 +103,8 @@
     border-radius: 3px;
 }
 
+.mrk-form input[type=radio]::-ms-check,
+.mrk-form input[type=checkbox]::-ms-check,
 .mrk-form input[type=radio]:checked,
 .mrk-form input[type=checkbox]:checked {
     color: darkblue;
